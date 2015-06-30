@@ -1,3 +1,7 @@
 .idea
 *.iml
+*.jar
 /out
+.gradle
+/build/*
+!/build/repo
