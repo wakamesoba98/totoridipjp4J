@@ -1,0 +1,32 @@
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+//    testCompile 'junit:junit:4.12'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId 'jp.dip.totori'
+            artifactId 'totoridipjp4J'
+            version '1.0'
+
+            from components.java
+        }
+    }
+}
+publishing {
+    repositories {
+        maven {
+            url "$buildDir/repo"
+        }
+    }
+}
