@@ -1,6 +1,7 @@
 .idea
 *.iml
 *.jar
+!/gradle/wrapper/gradle-wrapper.jar
 /out
 .gradle
 /build/*
