@@ -1,5 +1,7 @@
 #totoridipjp4J
 
+[![Build Status](https://travis-ci.org/wakamesoba98/totoridipjp4J.svg?branch=master)](https://travis-ci.org/wakamesoba98/totoridipjp4J)
+
 ##なにこれ
 
 totori.dip.jp のトップ画像取得 API を呼び出すライブラリです。
