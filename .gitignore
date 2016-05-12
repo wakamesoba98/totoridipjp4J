@@ -1,8 +1,8 @@
 .idea
 *.iml
 *.jar
-!/gradle/wrapper/gradle-wrapper.jar
 /out
 .gradle
 /build/*
 !/build/repo
+!/gradle/wrapper/gradle-wrapper.jar
